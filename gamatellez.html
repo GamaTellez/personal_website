@@ -3,47 +3,102 @@
     <title>Gama Tellez</title>
 </head>
 <body>
+    <!-- --------------------------INTRO DIV:--------------------------- -->
+    <button id="back-to-home-button">Home</button>
 
-
-    <div id="header-container">   
+    <div id="intro-div">
+        
         <img id="my-photo" src="Images/my_photo.png" alt="Me">
        
-        <p id="content">My name is Gama Tellez I'm a software engineer based in Centerville Utah specializing 
-            in buiing exceptional iOS applications, websites and everything in between. 
-        </p>
-    </div>
-    
-    <div style="height: 100px;"></div>
-    
-    <div id="container-menu">
-        <table>
+        <p id="intro-p">My name is Gama Tellez I'm a software engineer based in Centerville Utah specializing 
+            in buiing exceptional iOS applications, websites and everything in between.</p>    
+        
+        <table id="menu-table">
             <tr>
-                <td><canvas id="aboutMeCanvas"></canvas></td>
-                <td><canvas id="experienceCanvas"></canvas></td>
-                <td><canvas id="myWorkCanvas"></canvas></td>
+                <td><canvas id="about-me-canvas"></canvas></td>
+                <td><canvas id="experience-canvas"></canvas></td>
+                <td><canvas id="my-work-canvas"></canvas></td>
             </tr>
             <tr>
-                <td><Button class="menuButton" id="aboutMeButton">About Me </Button></td>
-                <td><Button class="menuButton" id="experienceButton"> Experience </Button></td>
-                <td><Button class="menuButton" id="myWorkButton"> My Work </Button></td>
+                <td><Button class="menu-Button" id="about-me-button">About Me </Button></td>
+                <td><Button class="menu-Button" id="experience-button"> Experience </Button></td>
+                <td><Button class="menu-Button" id="my-work-button"> My Work </Button></td>
             </tr>
         </table>        
-    </div>    
 
-    <div id="container-links">
-        <table>
+
+        <table id="links-table">
             <tr>
                 <td id="link-cell-left"> <a href="www.linkedin.com/in/gamatellez">LinkedIn</a> </td>
-            </tr>
-            <tr>
                 <td id="link-cell-right"> <a href="https://github.com/GamaTellez">Github</a> </td>
             </tr>
+        </table>
+            
+    </div>   
+
+    <!-- --------------------------MY WORK DIV:--------------------------- -->
+    <div id="my-work-div">
+
+        <h2 class="header-title">My Work</h2>
+        
+        <table id="my-work-table">
+            
+            <tr>
+                <th id="project-name"> LDStorymakers iOS Application </th>
+            </tr>            
+            <tr>
+                <td id="project-description"> Built for the LDStorymakers group to assist them in their yearly conference. It enables those attending to browse content, 
+                    plan out their conference schedule and receive important notifiocations. It used for over 100 people every year.
+                </td>
+            </tr>
+            <tr>
+                <td> <a href="https://apps.apple.com/us/app/ldstorymakers/id1095179025">LDStorymakers App</a> </td>
+            </tr>
+           <!-- ------------------------------  -->
+            <tr>
+                <th id="project-name"> JS Fluency page </th>
+            </tr>
+            <tr>
+                <td id="project-description"> A website to display the fluency of code topics and final project for the CIT 261 course written with html, 
+                    javascript, ajax, and css. </td>
+            </tr>
+            <tr>
+                <td> <a href="https://gamatellez.github.io/js_fluency_page/fluency_main.html"> Fluency Page</a> </td>
+            </tr>
+            <!-- ----------------------------------- -->
+            <tr>
+                <th id="project-name" > E-commerce page front end </th>
+            </tr>
+            <tr>
+                <td id="project-description"> Built with JS, css, html and the heroku platform.   </td>
+            </tr>
+            <tr>
+                <td> <a href="link: https://agile-chamber-86205.herokuapp.com"> Gama's shop</a> </td>
+            </tr>   
+            <!-- ----------------------------------- -->
+            <tr>
+                <th id="project-name"> Pixabay API memory game. </th>
+            </tr>
+            <tr>
+                <td id="project-description"> Memory game built with JS, CSS, HTML and the Pixabay API.   </td>
+            </tr>
+            <tr>
+                <td> <a href="https://gamatellez.github.io/js_fluency_page/project_memory_game/welcome_page.html"> Pixabay Memory Game</a> </td>
+            </tr>   
+            <!-- ----------------------------------- -->
+            <tr>
+                <th id="project-name"> Covid-19 Tracker </th>
+            </tr>
+            <tr>
+                <td id="project-description"> A website to provide accurate and reliable data. </td>
+            </tr>
+            <tr>
+                <td> <a href="link: https://agile-chamber-86205.herokuapp.com"> Covid-19Tracker</a> </td>
+            </tr>   
+
 
         </table>
-    </div>
 
-    <div id="experienceDiv">
-        
     </div>
 
 
